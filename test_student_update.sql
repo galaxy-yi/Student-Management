@@ -1,0 +1,1 @@
+SELECT * FROM student_add_update('{"id":12,"name":"张三","email":"zhangsan@example123.com","class":"10th","section":"A","gender":"male","phone":"13800138001","currentAddress":"北京市朝阳区","fatherName":"张父1","fatherPhone":"13900139000"}'::jsonb);
